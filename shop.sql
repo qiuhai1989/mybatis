@@ -1,5 +1,6 @@
 --test
 --aaaaaa
+--cccccc
 CREATE DATABASE IF NOT EXISTS shop;
 USE shop;
 
