@@ -7,6 +7,8 @@ public class CourseInfo {
 
     private String caddress;
 
+    private String deptno;
+    
     public Integer getId() {
         return id;
     }
