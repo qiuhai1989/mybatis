@@ -35,6 +35,7 @@ public class UserController {
 	@RequestMapping("/showInfos")
 	public @ResponseBody Object showUserInfos(){
 		List<UserInfo> userInfos = userService.getUsers();
+		System.out.println("sdfsdkfjsdfisdfjsdf");
 		return userInfos;
 	}
 }

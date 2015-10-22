@@ -68,4 +68,10 @@
       caddress = #{caddress,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+    <update id="updateByPrimary" parameterType="org.andy.shop.model.CourseInfo" >
+    update course_info
+    set cname = #{cname,jdbcType=VARCHAR},
+      caddress = #{caddress,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
 </mapper>
