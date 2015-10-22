@@ -28,6 +28,7 @@ public class UserController {
 		UserInfo userInfo = userService.getUserById(userId);
 		modelMap.addAttribute("userInfo", userInfo);
 		System.out.println("------");
+		System.out.println("++++++++++===");
 		return "/user/showInfo";
 	}
 	
